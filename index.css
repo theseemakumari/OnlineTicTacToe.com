@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Exo 2', sans-serif;
+	background: radial-gradient(circle, rgba(238,174,216,1) 0%, rgba(149,184,224,1) 100%);
+}
+.heading{ 
+	display: flex;
+	font-size: 2em;
+	justify-content: center;
+	color: white;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin: 10px 10px;
+	background: linear-gradient(230deg, rgba(141,141,143,1) 0%, rgba(93,96,119,1) 24%, rgba(0,0,0,1) 86%);
+}
+.container{
+	border: 4px solid black;
+	border-radius: 20px;
+	display: inline-flex;
+	position: absolute;
+	top: 185px;
+	left: 305px;
+}
+table {
+	border-collapse: collapse;
+	border-radius: 15px;
+	background: linear-gradient(230deg, rgba(201,151,80,1) 16%, rgba(144,99,191,1) 47%, rgba(43,136,86,1) 82%);
+}
+
+table tr td {
+	width: 8vw;
+	height: 15vh;
+	border: 4px solid black;
+	font-size: 5em;
+	text-align: center;
+}
+
+table tr td:hover {
+	background: linear-gradient(90deg, rgba(195,129,240,1) 0%, rgba(237,130,130,1) 50%, rgba(245,203,144,1) 100%);
+	border-radius: 15px;
+	cursor: pointer;
+}
+.imgbox img{
+	transition:ease-in-out;
+	position: relative;
+	left: 750px;
+	top: 25px;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+.winner {
+	transition:ease-in-out ;
+	background: linear-gradient(230deg, rgba(201,151,80,1) 16%, rgba(144,99,191,1) 47%, rgba(43,136,86,1) 82%);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: 4px solid black;
+	border-radius: 15px;
+	position: absolute;
+	top: 410px;
+	left: 715px;
+	width: 25vw;
+	height: 15vh;
+	font-size: 4em;
+	font-weight: bold;
+}
+.reload {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 1.5rem;
+	border:2px solid black;
+	border-radius: 15px;
+	position: absolute;
+	top: 550px;
+	left: 600px;
+	width: 12vw;
+	height: 10vh;
+	background: linear-gradient(230deg, rgba(141,141,143,1) 0%, rgba(93,96,119,1) 24%, rgba(0,0,0,1) 86%);
+}
+.reload:hover {
+	background: linear-gradient(90deg, rgba(195,129,240,1) 0%, rgba(237,130,130,1) 50%, rgba(245,203,144,1) 100%);
+	font-weight: bolder;
+	color: black;
+	cursor: pointer;
+}

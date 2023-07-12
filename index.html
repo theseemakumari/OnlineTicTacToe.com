@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Tic-Tac-Toe Game </title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Sono&display=swap" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<link type="text/css" rel="stylesheet" href="./tic_tac_toe.css">
+	<style>
+		.a{
+			border-right: 0;
+		}
+
+		.b{
+			border-left: 0;
+		}
+
+		.c{
+			border-top: 0;
+		}
+
+		.d{
+			border-bottom: 0;
+		}
+    </style>
+</head>
+
+<body>
+	<div class="heading">
+		<h1>TIC TAC TOE</h1>
+	</div>
+	<h2 style="text-align: center; font-size: 2.5em;">START PLAYING</h2>
+	<div class="container">
+		<table id='board'>
+			<tr>
+				<td class="cell c b"></td>
+				<td class="cell c"></td>
+				<td class="cell c a"></td>
+			</tr>
+			<tr>
+				<td class="cell b"></td>
+				<td class="cell "></td>
+				<td class="cell a"></td>
+			</tr>
+			<tr>
+				<td class="cell b d"></td>
+				<td class="cell d"></td>
+				<td class="cell d a"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="imgbox">
+		<img src="./assets/winner.gif" alt="celebration gif" />
+	</div>
+<script type="text/javascript" src="tic_tac_toe.js"></script>
+</body>
+
+</html>
