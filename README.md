@@ -1,1 +1,1 @@
-# OnlineTicTacToe.com
+# Tic-Tac-Toe.com
